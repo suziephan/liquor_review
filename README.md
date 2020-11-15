@@ -1,8 +1,14 @@
-# liquor_review
-A project to build recommendation liquor for all people  
-Introduction:
-I dont drink beer too often, but all my friend and my family loves beer, that 's why I always buy beer as a gift for them. 
-Sometimes, I enjoy few sip too, but it is really difficult for me to choose the beer I like as all the website they categorized style and type of beer very confused and use technical words
-Therefore, I want to build a website with easier word , target to all customer ( those who are new and those who are expert to beer) so that they can make decision easier
+# Beer Recommendation
 
+# Project Summary
+Beers go great with food. Beers may benefit your health. There are many reasons why you should have some beer once in a while, but if you are not a beer drinker, you might be overwhelm about the number of beers out there. As non-drinkers ourselves, we understand the struggle of going inside a liquor store, standing in front of a shelf, and spending minutes just to figure our what to buy. This project was built to help people with the same problem. We scraped the reviews from a beer review website of every beer product in BC Liquor Store, and recategorized all products based on taste and aroma. We recategorized this way because non-drinkers mostly care about these attributes. Since they do not know much about beer styles, it is not reasonable to categorize products into styles such as Ale, Lager, Wheat, etc. 
 
+# Dataset
+- All beer products scraped from BC Liquor Store: 
+- Reviews of these products scraped from BeerAdvocate:
+
+# Process
+1. Scrape data
+- From BC Liquor Store
+- From BeerAdvocate
+2. 
