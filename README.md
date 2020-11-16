@@ -15,7 +15,7 @@ Beers go great with food. Beers may benefit your health. There are many reasons 
 3. Fuzzy Matching Beer Name
 
 ## Obstacles & Limitations
-1. BeerAdvocate requires log-in to see all reviews. Therefore a function has to be made to scrape these reviews.
+1. BeerAdvocate requires log-in to see all reviews. 
 2. The beer names from BC Liquor Stores and BeerAdvocate are not totally the same, which yielded incorrect results when we tried to use simple matching function. Fuzzy matching was then considered to match strings with some similar words.  
 
 ## Tools used
