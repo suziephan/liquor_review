@@ -1,8 +1,27 @@
-# liquor_review
-A project to build recommendation liquor for all people  
-Introduction:
-I dont drink beer too often, but all my friend and my family loves beer, that 's why I always buy beer as a gift for them. 
-Sometimes, I enjoy few sip too, but it is really difficult for me to choose the beer I like as all the website they categorized style and type of beer very confused and use technical words
-Therefore, I want to build a website with easier word , target to all customer ( those who are new and those who are expert to beer) so that they can make decision easier
+# BC Beer Recommendation (On-going)
 
+## Project Summary
+Beers go great with food. Beers may benefit your health. There are many reasons why you should have some beer once in a while, but if you are not a beer drinker, you might be overwhelm about the number of beers out there. As non-drinkers ourselves, we understand the struggle of going inside a liquor store, standing in front of a shelf, and spending hours just to figure our what to buy. This project is built to help people with the same problem. We scraped the reviews from a beer review website of every beer product in BC Liquor Store, and recategorized all products based on taste and aroma. We recategorized this way because non-drinkers mostly care about these attributes. it is not reasonable to categorize products into styles such as Ale, Lager, Wheat, etc since they do not know much about beer styles, . 
 
+## Dataset
+- All beer products scraped from [BC Liquor Store](https://www.bcliquorstores.com/product-catalogue?category=beer&sort=name.raw:asc&page=1).
+- Reviews of these products scraped from [BeerAdvocate](https://www.beeradvocate.com/beer)
+
+## Process
+1. Scrape data
+- From BC Liquor Store
+- From BeerAdvocate
+2. Categorize beers based on BeerAdvocate reviews
+3. Fuzzy Matching Beer Name
+
+## Obstacles & Limitations
+1. BeerAdvocate requires log-in to see all reviews. 
+2. The beer names from BC Liquor Stores and BeerAdvocate are not totally the same, which yielded incorrect results when we tried to use simple matching function. Fuzzy matching was then considered to match strings with some similar words.  
+
+## Tools used
+- Data Manipulation: Pandas/ Numpy
+- Web Scrape: BeautifulSoup, Selenium
+- Text Analysis: NLTK, TextBlob, Wordninja
+
+## Timeline
+15/09/2020 - now
